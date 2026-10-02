@@ -13,7 +13,7 @@ IF NOT EXISTS (
 BEGIN
     BEGIN TRY
         CREATE LOGIN turismo_admin
-        WITH PASSWORD = 'TurismoAdmin#2026';
+        WITH PASSWORD = '<CONTRASENA_SEGURA>';
 
         PRINT 'Login turismo_admin creado correctamente.';
     END TRY
@@ -41,7 +41,7 @@ IF NOT EXISTS (
 BEGIN
     BEGIN TRY
         CREATE LOGIN turismo_vendedor
-        WITH PASSWORD = 'TurismoVendedor#2026';
+        WITH PASSWORD = '<CONTRASENA_SEGURA>';
 
         PRINT 'Login turismo_vendedor creado correctamente.';
     END TRY
@@ -69,7 +69,7 @@ IF NOT EXISTS (
 BEGIN
     BEGIN TRY
         CREATE LOGIN turismo_analista
-        WITH PASSWORD = 'TurismoAnalista#2026';
+        WITH PASSWORD = '<CONTRASENA_SEGURA>';
 
         PRINT 'Login turismo_analista creado correctamente.';
     END TRY
